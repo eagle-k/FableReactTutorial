@@ -1,0 +1,24 @@
+{
+  "name": "fable-react-tutorial",
+  "repository": "https://github.com/eagle-k/FableReactTutorial.git",
+  "license": "MIT",
+  "scripts": {
+    "install": "dotnet tool restore",
+    "start": "concurrently \"npm:fable\" \"npm:serve\"",
+    "fable": "dotnet fable watch src",
+    "serve": "webpack serve --open"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "css-loader": "^5.2.6",
+    "html-webpack-plugin": "^5.3.2",
+    "style-loader": "^3.0.0",
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  }
+}

@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+        "css.lint.emptyRules": "ignore"
+    },
+    "extensions": {
+        "recommendations": [
+            "editorconfig.editorconfig",
+            "ionide.ionide-fsharp"
+        ],
+        "unwantedRecommendations": [
+            "georgewfraser.fsharp-language-server"
+        ]
+    }
+}

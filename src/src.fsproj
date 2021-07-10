@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <WarnOn>3390;$(WarnOn)</WarnOn>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Content Include="index.css" />
+        <Content Include="index.html" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Compile Include="Program.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Feliz" Version="1.49.0" />
+    </ItemGroup>
+
+</Project>
